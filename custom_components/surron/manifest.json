@@ -1,0 +1,16 @@
+{
+  "domain": "surron",
+  "name": "Sur-Ron (OEM)",
+  "bluetooth": [
+    { "service_uuid": "6e400001-b5a3-f393-e0a9-e50e24dcca9e", "connectable": true }
+  ],
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://github.com/slackerbob/surron-ha",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/slackerbob/surron-ha/issues",
+  "requirements": ["bleak-retry-connector>=3.4.0"],
+  "version": "0.1.0"
+}
